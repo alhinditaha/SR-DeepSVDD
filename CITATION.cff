@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "SR-DeepSVDD: Severity-Regularized Deep SVDD"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Alhindi
+    given-names: Taha
+version: "0.1.0"
+date-released: "2025-10-27"
+repository-code: "https://github.com/your-org/sr-deepsvdd"
+references:
+  - type: article
+    title: "Deep One-Class Classification"
+    authors:
+      - family-names: Ruff
+        given-names: Lukas
+    year: 2018
+  - type: article
+    title: "A differentiated one-class classification method with applications to intrusion detection"
+    authors:
+      - family-names: Kang
+        given-names: Inho
+      - family-names: Jeong
+        given-names: Myong K.
+      - family-names: Kong
+        given-names: Dongjoon
+    year: 2012
