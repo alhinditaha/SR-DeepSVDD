@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
-SR-DeepSVDD — ADFA Code Runner v5
-- Mirrors Simulated v4 runner: per-model boundaries, FAR/targeted, multi-seed hooks, grid.
-- Adds ADFA prep controls (ngram, max_features, val_frac, seed).
-- NEW: Threads through on-load targeting controls to run_sr_deepsvdd_ADFA_v4.py:
-       --target-families / --target-frac / --target-override
+SR-DeepSVDD — ADFA Code Runner
 """
 import os, shlex, subprocess, json
 from pathlib import Path
@@ -344,3 +340,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
